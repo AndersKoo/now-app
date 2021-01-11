@@ -1,6 +1,93 @@
-/* .header {
-  background-image: url();
-  background-position: center center;
-  background-size: cover;
-  background-repeat: "no-repeat";
-} */
+/* Custom properties */
+
+:root {
+  --clr-primary: #46bcde;
+  --clr-secondary: #ff99cc;
+  --clr-black: black;
+  --clr-white: white;
+  --ff-primary: "Kiona";
+
+  @font-face {
+    font-family: "Kiona";
+    src: local("Kiona"), url(../../fonts/Kiona-Regular.ttf);
+  }
+}
+
+/* Background picture */
+.header--background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: -10px;
+}
+
+/* "PLAY" title */
+.header--title {
+  position: absolute;
+  font-size: 10em !important;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--clr-white);
+  font-family: var(--ff-primary);
+  font-size: 4em;
+  text-align: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+/* Blue line divider */
+hr.divider {
+  border: 3px solid var(--clr-primary);
+  margin-top: -9px;
+}
+
+/* Infotext */
+.header--infotext {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--clr-white);
+  font-family: var(--ff-primary);
+  font-size: 2em;
+  justify-content: center;
+  margin-top: -28px;
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header--title {
+    /* top: 325px; */
+    margin-top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--clr-white);
+    font-family: var(--ff-primary);
+    font-size: 3em !important;
+    text-align: center;
+  }
+  hr.divider {
+    border: 3px solid var(--clr-primary);
+    margin-top: 10px;
+  }
+  .header--infotext {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--clr-white);
+    font-family: var(--ff-primary);
+    font-size: 1.4em;
+    justify-content: center;
+    margin-top: -60px;
+    align-items: center;
+    text-align: center;
+  }
+  .header--background {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: -30px;
+  }
+}

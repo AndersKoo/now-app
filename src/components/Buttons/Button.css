@@ -1,6 +1,48 @@
-.btn {
+/* Custom properties */
+
+:root {
+  --clr-primary: #46bcde;
+  --clr-secondary: #ff99cc;
+  --clr-black: black;
+  --clr-white: white;
+  --ff-primary: "Kiona";
+
+  @font-face {
+    font-family: "Kiona";
+    src: local("Kiona"), url(../../fonts/Kiona-Regular.ttf);
+  }
+}
+
+/* Button container */
+.buttons--container {
   font-weight: 400;
+  display: flex;
+  outline: none;
+}
+
+/* Info button */
+.info {
+  border: none;
   border-radius: 10px;
-  cursor: pointer;
-  color: black;
+  font-family: var(--ff-primary);
+  padding: 10px;
+  color: var(--clr-white);
+  background-color: var(--clr-primary);
+  margin: 2px;
+}
+
+/* Focus styling */
+*:focus {
+  outline: 0 !important;
+}
+
+/* Play button */
+.play {
+  margin: 2px;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--ff-primary);
+  padding: 10px;
+  color: var(--clr-white);
+  background-color: var(--clr-primary);
 }

@@ -1,0 +1,88 @@
+/* Custom properties */
+
+:root {
+  --clr-primary: #46bcde;
+  --clr-secondary: #ff99cc;
+  --clr-black: black;
+  --clr-white: white;
+  --ff-primary: "Kiona";
+
+  @font-face {
+    font-family: "Kiona";
+    src: local("Kiona"), url(../../fonts/Kiona-Regular.ttf);
+  }
+}
+
+/* Movie container */
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 10px;
+  padding-bottom: 15px;
+}
+
+/* Section title */
+.movie-section-title {
+  font-family: var(--ff-primary);
+  font-size: 4em;
+  color: var(--clr-white);
+  text-align: center;
+}
+
+/* Movie card container */
+.movie-card {
+  font-family: var(--ff-primary);
+  color: white;
+  width: 250px;
+  background-color: var(--clr-black);
+  margin: 13px;
+}
+
+/* Movie poster image */
+.movie-card img {
+  max-width: 100%;
+  border-radius: 12px !important;
+  margin: 0;
+}
+
+.movie-poster {
+  margin: -6px;
+  background-color: var(--clr-black);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.movie-poster:hover {
+  transform: scale(1.05, 1.05);
+}
+
+/* General styling and positioning */
+.movie-info {
+  display: flex;
+}
+
+.movie-info h3 {
+  margin: 0;
+  align-items: center;
+}
+
+.votes {
+  color: var(--clr-secondary);
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* Icon */
+.fa-star:before {
+  margin: 5px !important;
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .movie-section-title {
+    font-family: var(--ff-primary);
+    font-size: 2em;
+    color: var(--clr-white);
+    text-align: center;
+  }
+}
