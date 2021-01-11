@@ -1,5 +1,5 @@
-# play
-I dette prosjektet er ment som et eksperiment for å lære seg å hente data ut av API.
+# now-app/Play
+Dette er et react.js prosjekt med API'et til https://www.themoviedb.org/ i backend
 
 ## Kilder og inspirasjon<br>
 Movies App - React Project<br>
