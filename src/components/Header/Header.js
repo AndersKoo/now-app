@@ -1,14 +1,15 @@
 import React from "react";
 import "./Header.css";
 import "../../fonts/Kiona-Regular.ttf";
+import image from "../../img/catalog_darken.jpg";
 
 export default function Header() {
   return (
     <section className="header--background">
       <img
-        alt="cinema"
+        alt="logo"
         className="img"
-        src="../catalog_darken.jpg"
+        src={image}
         style={{
           backgroundPosition: "center",
           backgroundSize: "cover",

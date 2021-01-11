@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../img/play.png";
 
 function Logo() {
   return (
@@ -6,7 +7,7 @@ function Logo() {
       <img
         alt="cinema"
         className="logo"
-        src="../play.png"
+        src={img}
         style={{
           position: "absolute",
           top: "13px",
