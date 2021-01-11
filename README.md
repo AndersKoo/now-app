@@ -14,6 +14,8 @@ Bakgrunnsbilde<br>
 https://www.journaldugeek.com/content/uploads/2018/10/netflix.jpeg<br>
 React Card component (popout effect)<br>
 https://github.com/mernstackdeveloper/React-Cards-Component/blob/master/src/index.css<br>
+The Movie Database (TMDb)<br>
+https://www.themoviedb.org/<br>
 
 <br>
 <br>
