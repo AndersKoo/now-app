@@ -7,7 +7,7 @@ Dette er et react.js prosjekt med API'et til https://www.themoviedb.org/ i backe
 # Link
 https://anderskoo.github.io/now-app/<br>
 
-## Kilder og inspirasjon<br>
+## Kilder<br>
 Movies App - React Project<br>
 https://www.youtube.com/watch?v=sZ0bZGfg_m4&list=LL&index=5<br>
 Bakgrunnsbilde<br>
