@@ -51,12 +51,12 @@
   background-color: var(--clr-black);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
 }
-
+/* Popout effetct */
 .movie-poster:hover {
   transform: scale(1.05, 1.05);
 }
 
-/* General styling and positioning */
+/* Movie card container */
 .movie-info {
   display: flex;
 }
