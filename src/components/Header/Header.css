@@ -39,6 +39,7 @@
 /* Blue line divider */
 hr.divider {
   border: 3px solid var(--clr-primary);
+  border-radius: 5px;
   margin-top: -9px;
 }
 
@@ -56,7 +57,7 @@ hr.divider {
 }
 
 /* Smartphones (portrait and landscape) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 250px) and (max-device-width: 480px) {
   .header--title {
     /* top: 325px; */
     margin-top: 80px;
@@ -64,23 +65,24 @@ hr.divider {
     transform: translate(-50%, -50%);
     color: var(--clr-white);
     font-family: var(--ff-primary);
-    font-size: 3em !important;
+    font-size: 2em !important;
     text-align: center;
   }
   hr.divider {
     border: 3px solid var(--clr-primary);
     margin-top: 10px;
   }
+
   .header--infotext {
     position: absolute;
-    top: 60%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--clr-white);
     font-family: var(--ff-primary);
-    font-size: 1.4em;
+    font-size: 1.2em;
     justify-content: center;
-    margin-top: -60px;
+    margin-top: -90px;
     align-items: center;
     text-align: center;
   }

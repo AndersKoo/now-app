@@ -78,10 +78,10 @@
 }
 
 /* Smartphones (portrait and landscape) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 250px) and (max-device-width: 480px) {
   .movie-section-title {
     font-family: var(--ff-primary);
-    font-size: 2em;
+    font-size: 1.3em;
     color: var(--clr-white);
     text-align: center;
   }
