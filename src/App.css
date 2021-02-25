@@ -9,7 +9,8 @@
 .app {
   background-color: var(--clr-black);
   margin-left: -10px;
-  margin-right: -10px;
+  margin-right: -9px;
+  margin-right: -26px;
 }
 
 .html {
