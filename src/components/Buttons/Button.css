@@ -18,6 +18,7 @@
   font-weight: 400;
   display: flex;
   outline: none;
+  justify-content: center;
 }
 
 /* Info button */

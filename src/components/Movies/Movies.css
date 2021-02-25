@@ -59,6 +59,7 @@
 /* Movie card container */
 .movie-info {
   display: flex;
+  justify-content: center;
 }
 
 .movie-info h3 {
