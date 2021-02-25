@@ -2,7 +2,7 @@
  ![Play](demo.gif)
 
 # now-app/Play
-Dette er et react.js prosjekt med API'et til https://www.themoviedb.org/ i backend. Siden er fortsatt under utvikling. 
+Dette er et react.js prosjekt med API'et til https://www.themoviedb.org/ i backend. 
 
 # Link
 https://anderskoo.github.io/now-app/<br>
