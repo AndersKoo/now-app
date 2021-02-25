@@ -1,4 +1,4 @@
-# Demonstrasjon<br>
+# Demo<br>
  ![Play](demo.gif)
 
 # now-app/Play
