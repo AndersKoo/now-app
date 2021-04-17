@@ -5,7 +5,7 @@
 Teknologier: React, dotenv, gh-pages.<br>
 
 I denne løsningen henter jeg filmer fra The Movie Database (TMDb). For å skjerme min API-nøkkel brukes modulen dotenv.
-Jeg hadde ingen ide på hvordan jeg skulle hente ut info fra API’et. Løsningen på dette falt på Florin Pop. <br>
+Jeg hadde ingen ide på hvordan jeg skulle hente ut info fra API’et. Løsningen på dette falt på Florin Pop.
 Her fikk jeg presentert en måte dette kan utføres på.<br>
 
 I denne prosessen lærte jeg:<br>
