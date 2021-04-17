@@ -1,8 +1,18 @@
 # Demo<br>
  ![Play](demo.gif)
 
-# now-app/Play
-Dette er et react.js prosjekt med API'et til https://www.themoviedb.org/ i backend. 
+## Beskrivelse:<br>
+Teknologier: React, dotenv, gh-pages.<br>
+
+I denne løsningen henter jeg filmer fra The Movie Database (TMDb). For å skjerme min API-nøkkel brukes modulen dotenv.<br>
+Jeg hadde ingen ide på hvordan jeg skulle hente ut info fra API’et. Løsningen på dette falt på Florin Pop. <br>
+Her fikk jeg presentert en måte dette kan utføres på.<br>
+
+I denne prosessen lærte jeg:<br>
+
+•	Skjerme API-nøkkel m/dotenv<br>	
+•	gh-pages<br>
+•	Uthenting av info fra TMDb API	<br>
 
 # Link
 https://anderskoo.github.io/now-app/<br>
