@@ -7,13 +7,17 @@ Teknologier:<br>
 • dotenv<br>
 • gh-pages<br>
 
-Applikasjon/strømmeside som henter filmer fra The Movie Database (TMDb). Jeg ønsket et fresht fargetema og gikk for blå og rosa nyanser.<br>
+Applikasjon/strømmeside som henter filmer fra The Movie Database (TMDb). Første inntrykket presenteres med en elegant font.<br> 
+Jeg ønsket et fresht fargetema og gikk for blå og rosa nyanser. <br>
 
 I denne prosessen lærte jeg:<br>
 
+• Custom properties (CSS)<br>
+• Responsivt design<br>
 •	Skjerme API-nøkkel m/dotenv<br>	
 •	gh-pages<br>
 •	Uthenting av info fra TMDb API	<br>
+
 
 # Link
 https://anderskoo.github.io/now-app/<br>
