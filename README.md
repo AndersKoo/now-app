@@ -2,9 +2,12 @@
  ![Play](demo.gif)
 
 ## Beskrivelse:<br>
-Teknologier: React, dotenv, gh-pages.<br>
+Teknologier:<br> 
+• React<br>
+• dotenv<br>
+• gh-pages<br>
 
-I denne løsningen henter jeg filmer fra The Movie Database (TMDb).
+Applikasjon/strømmeside som henter filmer fra The Movie Database (TMDb). Jeg ønsket et fresht fargetema og gikk for blå og rosa nyanser.<br>
 
 I denne prosessen lærte jeg:<br>
 
