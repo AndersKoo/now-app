@@ -1,8 +1,24 @@
 # Demo<br>
  ![Play](demo.gif)
 
-# now-app/Play
-Dette er et react.js prosjekt med API'et til https://www.themoviedb.org/ i backend. 
+## Beskrivelse:<br>
+Teknologier:<br> 
+
+• React<br>
+• dotenv<br>
+• gh-pages<br>
+
+Applikasjon/strømmeside som henter filmer fra The Movie Database (TMDb). Første inntrykket presenteres med en elegant font.<br> 
+Jeg ønsket et fresht fargetema og gikk for blå og rosa nyanser. <br>
+
+I denne prosessen lærte jeg:<br>
+
+• Custom properties (CSS)<br>
+• Responsivt design<br>
+•	Skjerme API-nøkkel m/dotenv<br>	
+•	gh-pages<br>
+•	Uthenting av info fra TMDb API	<br>
+
 
 # Link
 https://anderskoo.github.io/now-app/<br>
@@ -17,9 +33,3 @@ https://github.com/mernstackdeveloper/React-Cards-Component/blob/master/src/inde
 The Movie Database (TMDb)<br>
 https://www.themoviedb.org/<br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
