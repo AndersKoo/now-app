@@ -17,7 +17,7 @@ export default function Header() {
           width: "100vw",
           height: "100vh",
           marginTop: "-18px",
-          marginLeft: "-10px",
+          marginLeft: "8px",
           paddingLeft: "12px",
           position: "relative",
         }}
