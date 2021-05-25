@@ -1,16 +1,12 @@
 /* Custom properties */
+@import url("http://fonts.cdnfonts.com/css/kiona-2");
 
 :root {
   --clr-primary: #46bcde;
   --clr-secondary: #ff99cc;
   --clr-black: black;
   --clr-white: white;
-  --ff-primary: "Kiona";
-
-  @font-face {
-    font-family: "Kiona";
-    src: local("Kiona"), url(../../fonts/Kiona-Regular.ttf);
-  }
+  --ff-primary: "Kiona", sans-serif;
 }
 
 /* Movie container */

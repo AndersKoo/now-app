@@ -1,5 +1,4 @@
 import "./Movies.css";
-import "../../fonts/Kiona-Regular.ttf";
 import Button from "../Buttons/Button";
 
 const IMG_API = "https://image.tmdb.org/t/p/original/";

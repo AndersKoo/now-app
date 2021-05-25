@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import "../../fonts/Kiona-Regular.ttf";
+
 import image from "../../img/catalog_darken.jpg";
 
 export default function Header() {
